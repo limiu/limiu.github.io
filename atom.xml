@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://limiu.github.io</id>
     <title>李斌的记忆</title>
-    <updated>2020-11-05T01:32:21.917Z</updated>
+    <updated>2020-11-11T09:05:17.311Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://limiu.github.io"/>
     <link rel="self" href="https://limiu.github.io/atom.xml"/>
@@ -11,12 +11,29 @@
     <icon>https://limiu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 李斌的记忆</rights>
     <entry>
-        <title type="html"><![CDATA[Eletron 学习笔记]]></title>
-        <id>https://limiu.github.io/post/elecron/</id>
-        <link href="https://limiu.github.io/post/elecron/">
+        <title type="html"><![CDATA[打开一个网页发生了什么]]></title>
+        <id>https://limiu.github.io/post/da-kai-yi-ge-wang-ye-fa-sheng-liao-shi-me/</id>
+        <link href="https://limiu.github.io/post/da-kai-yi-ge-wang-ye-fa-sheng-liao-shi-me/">
         </link>
-        <updated>2020-11-04T09:24:29.000Z</updated>
-        <content type="html"><![CDATA[<p>因为</p>
+        <updated>2020-11-11T08:40:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>在浏览器上打开页面 https://studies.cs.helsinki.fi/exampleapp/notes 时会发生什么。</p>
+<ul>
+<li>浏览器使用 HTTP GET 请求 从服务器中获取定义内容和页面结构的HTML</li>
+<li>HTML 代码中的 Links 标签 会让浏览器获取CSS样式表 main.css</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>在浏览器上打开页面 https://studies.cs.helsinki.fi/exampleapp/notes 时会发生什么。</p>
+<ul>
+<li>浏览器使用 HTTP GET 请求 从服务器中获取定义内容和页面结构的HTML</li>
+<li>HTML 代码中的 Links 标签 会让浏览器获取CSS样式表 main.css</li>
+</ul>
+<!-- more -->
+<ul>
+<li>以及 JavaScript 代码文件 main.js</li>
+<li>浏览器执行 JS代码 ，并且向地址：https://studies.cs.helsinki.fi/exampleapp/data.json 发出HTTP GET请求，请求返回 data.json 数据</li>
+<li>浏览器获取数据后，执行一个<code>event handler</code>（发生了什么事件，执行什么函数） 事件处理程序，- 使用DOM-API将Note 渲染到页面</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="http://ww1.sinaimg.cn/large/006BhQohly1gklc3qz96ij30kk0ge0tl.jpg" alt="Untitled.png" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
