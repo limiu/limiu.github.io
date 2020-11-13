@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://limiu.github.io</id>
     <title>李斌的记忆</title>
-    <updated>2020-11-11T09:05:17.311Z</updated>
+    <updated>2020-11-13T10:51:23.790Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://limiu.github.io"/>
     <link rel="self" href="https://limiu.github.io/atom.xml"/>
@@ -33,7 +33,7 @@
 <li>浏览器执行 JS代码 ，并且向地址：https://studies.cs.helsinki.fi/exampleapp/data.json 发出HTTP GET请求，请求返回 data.json 数据</li>
 <li>浏览器获取数据后，执行一个<code>event handler</code>（发生了什么事件，执行什么函数） 事件处理程序，- 使用DOM-API将Note 渲染到页面</li>
 </ul>
-<figure data-type="image" tabindex="1"><img src="http://ww1.sinaimg.cn/large/006BhQohly1gklc3qz96ij30kk0ge0tl.jpg" alt="Untitled.png" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5Chuawei%5CDocuments%5CGridea%5Cpost-images%5Chttp.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
